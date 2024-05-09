@@ -35,6 +35,7 @@ public class Triangle extends Polygone{
         return surface;
     }
     
+    // affichage ...
     public void affiche(){
        System.out.println("Triangle avec: ");
        for(int i=0; i<nbSeg; i++){
